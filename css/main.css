@@ -8,6 +8,8 @@
 /* Navbar */
 .navbar-brand {
   font-weight: 400;
+  text-align: center;
+  width: 100%;
 }
 
 /* Jumbotron */
@@ -41,4 +43,16 @@
 
 .container p {
   padding: 10px 15px;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-weight: 400;
+    text-align: auto;
+    width: auto;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
 }
