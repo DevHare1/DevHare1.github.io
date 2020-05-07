@@ -5,16 +5,23 @@
   font-family: "Raleway", sans-serif;
 }
 
+.btn {
+  background-color: #e6bb7a;
+  border: solid 1px #e6bb7a;
+  color: white;
+}
+
 /* Navbar */
+
 .navbar-brand {
   font-weight: 400;
   text-align: center;
   width: 100%;
 }
 
-/* Jumbotron */
+/* Home Jumbotron */
 
-.jumbotron {
+#homeJumbo {
   margin-bottom: 0;
   text-align: center;
   border-bottom: solid 1px black;
@@ -30,29 +37,67 @@
   padding: 10px 15px;
 }
 
+.jumbotron a {
+  background-color: #e6bb7a;
+  border: solid 1px #e6bb7a;
+  color: white;
+}
+
 /* About */
-.container {
+.about {
   background-color: rgb(250, 250, 250);
   padding-top: 30px;
 }
 
-.container h2 {
-  color: #e6bb6b;
+.about h2 {
+  color: #7ab9e6;
   font-weight: 300;
 }
 
-.container p {
+.about p {
   padding: 10px 15px;
+}
+
+/* PROJECTS Styles*/
+
+.main-info {
+  background-color: rgb(250, 250, 250);
+}
+
+/* Projects Jumbotron*/
+#projectsJumbo {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+}
+
+/* Project Cards*/
+.card {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(230, 230, 230);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  border: solid 1px #7ab9e6;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card a {
+  margin: 5px;
+  font-size: 0.8em;
 }
 
 @media (min-width: 992px) {
   .navbar-brand {
     font-weight: 400;
-    text-align: auto;
-    width: auto;
-  }
-
-  .navbar-nav {
-    margin-left: auto;
+    text-align: left;
   }
 }
