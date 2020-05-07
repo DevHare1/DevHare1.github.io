@@ -66,7 +66,7 @@
 
 /* Projects Jumbotron*/
 #projectsJumbo {
-  margin-bottom: 0;
+  padding-bottom: 0;
   text-align: center;
   background-color: rgb(250, 250, 250);
 }
@@ -93,11 +93,18 @@
 .card a {
   margin: 5px;
   font-size: 0.8em;
+  align-content: bottom;
 }
 
 @media (min-width: 992px) {
   .navbar-brand {
     font-weight: 400;
     text-align: left;
+  }
+
+  .main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
   }
 }
