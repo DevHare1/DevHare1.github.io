@@ -176,8 +176,4 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0px;
   }
-
-  /*.card-img-top {
-    height: 140px;
-  }*/
 }
