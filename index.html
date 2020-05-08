@@ -21,6 +21,7 @@
   </head>
 
   <body>
+    <main>
     <!-- Nav Bar -->
     <nav
       class="navbar sticky-top navbar-expand-lg navbar-light"
@@ -45,6 +46,11 @@
       </div>
     </nav>
 
+    <!--Alert banner-->
+    <div class="alert" id="alert">
+      <!-- JS will insert alert here -->
+    </div>
+
     <!--Jumbotron-->
     <div class="jumbotron custom-jumbo" id="homeJumbo">
       <div class="align-middle custom-jumbo-text">
@@ -54,14 +60,6 @@
           development to connect businesses to their customers through
           technology.
         </p>
-        <a
-          class="btn btn-primary btn-lg"
-          href="#"
-          role="button"
-          data-toggle="modal"
-          data-target="#exampleModalCenter"
-          >Hire Me</a
-        >
       </div>
     </div>
 
@@ -77,6 +75,14 @@
         pursue to interact with your customers. When people search for a service
         or product I want to help you be one of the first companies they find.
       </p>
+      <a
+          class="btn btn-primary btn-lg"
+          href="#"
+          role="button"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+          >Hire Me</a
+        >
     </div>
 
     <footer>
@@ -92,6 +98,8 @@
       </div>
       </div>
     </footer>
+
+  </main>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -110,5 +118,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

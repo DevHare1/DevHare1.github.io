@@ -37,12 +37,6 @@
   padding: 10px 15px;
 }
 
-.jumbotron a {
-  background-color: #e6bb7a;
-  border: solid 1px #e6bb7a;
-  color: white;
-}
-
 /* About */
 .about {
   background-color: white;
@@ -59,6 +53,12 @@
   padding: 10px 15px 0 15px;
 }
 
+.jumbotron a {
+  background-color: #e6bb7a;
+  border: solid 1px #e6bb7a;
+  color: white;
+  margin-top: 20px;
+}
 /* Contact Info */
 .contact-info {
   text-align: center;
@@ -131,6 +131,40 @@
   align-content: bottom;
 }
 
+/* About and Resume */
+.mockup {
+  text-align: center;
+  margin: 20px;
+}
+
+/*---alert---*/
+.alert {
+  padding: 15px;
+}
+
+.alert-banner {
+  background: #e6bb7a;
+  padding: 5px 15px;
+  color: white;
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.alert-banner p {
+  margin-bottom: 0;
+}
+
+.alert-banner-close {
+  margin-left: auto;
+  margin-right: 0;
+  text-transform: uppercase;
+}
+
+.alert-banner-close:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .navbar-brand {
     font-weight: 400;
@@ -143,7 +177,7 @@
     grid-gap: 0px;
   }
 
-  .card-img-top {
+  /*.card-img-top {
     height: 140px;
-  }
+  }*/
 }
