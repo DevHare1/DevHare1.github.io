@@ -6,8 +6,8 @@
 }
 
 .btn {
-  background-color: #e6bb7a;
-  border: solid 1px #e6bb7a;
+  background-color: #0f4c81;
+  border: solid 1px #0f4c81;
   color: white;
 }
 
@@ -21,15 +21,21 @@
 
 /* Home Jumbotron */
 
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
 #homeJumbo {
   margin-bottom: 0;
+  padding: 20px;
   text-align: center;
-  border-bottom: solid 1px #7ab9e6;
+  border-bottom: solid 1px #0f4c81;
   background-color: white;
 }
 
 .jumbotron h1 {
-  color: #7ab9e6;
+  color: #0f4c81;
   font-weight: 300;
 }
 
@@ -45,7 +51,7 @@
 }
 
 .about h2 {
-  color: #7ab9e6;
+  color: #0f4c81;
   font-weight: 300;
 }
 
@@ -54,16 +60,17 @@
 }
 
 .jumbotron a {
-  background-color: #e6bb7a;
-  border: solid 1px #e6bb7a;
+  background-color: #0f4c81;
+  border: solid 1px #0f4c81;
   color: white;
   margin-top: 20px;
 }
+
 /* Contact Info */
 .contact-info {
   text-align: center;
   background-color: white;
-  border-top: solid 1px #7ab9e6;
+  border-top: solid 1px #0f4c81;
   padding-top: 30px;
   margin-top: 40px;
 }
@@ -71,7 +78,7 @@
 .contact-info h3 {
   font-weight: 400;
   margin-bottom: 15px;
-  color: #7ab9e6;
+  color: #00585b;
 }
 
 .contact-info p {
@@ -88,7 +95,7 @@
 
 .email a,
 .phone a {
-  color: #e6bb7a;
+  color: #810f0f;
 }
 
 /* PROJECTS Styles*/
@@ -118,7 +125,7 @@
 
 .card-img-top {
   margin-top: 10px;
-  border: solid 1px #7ab9e6;
+  border: solid 1px #0f4c81;
 }
 
 .card p {
@@ -142,7 +149,7 @@
 }
 
 .alert-banner {
-  background: #e6bb7a;
+  background: #810f0f;
   padding: 5px 15px;
   color: white;
   display: flex;
