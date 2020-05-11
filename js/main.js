@@ -1,4 +1,4 @@
-const alertBanner = document.getElementById("alert");
+/*const alertBanner = document.getElementById("alert");
 
 //create the html for the banner
 alertBanner.innerHTML = `
@@ -14,3 +14,4 @@ alertBanner.addEventListener("click", (e) => {
     alertBanner.style.display = "none";
   }
 });
+*/
