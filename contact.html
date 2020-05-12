@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>My Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light"
+      style="background-color: #0f4c81;"
+    >
+      <a class="navbar-brand" style="color: white;" href="#"
+        >Hare Development</a
+      >
+      <div class="ml-auto mr-auto navbar-expand">
+        <ul class="navbar-nav custom-navbar">
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="./about.html"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="./projects.html"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="./contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Contact Form-->
+    <div class="contact-form">
+      <div class="form-head">
+        <h1 class="text-uppercase">Contact</h1>
+      </div>
+      <form action="https://formspree.io/xknqgqdr" method="POST">
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="name@example.com"
+            name="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name"
+            name="name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="phone"
+            placeholder="555-555-555"
+            name="phone"
+          />
+        </div>
+        <div class="form-group">
+          <label for="reference">How did you hear about us?</label>
+          <select class="form-control" id="reference" name="reference">
+            <option>Friend or Family Member</option>
+            <option>Google Search</option>
+            <option>Social Media</option>
+            <option>Business Card</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea
+            class="form-control"
+            id="comment"
+            rows="6"
+            placeholder="Please be specific with your request"
+            name="comment"
+          ></textarea>
+        </div>
+        <div class="submit-button">
+          <button type="submit" class="btn btn-primary" value="send">
+            Submit
+          </button>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://devhare1.github.io/"
+          />
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Hare Development</p>
+        <p>PO Box 1 Template, TE 55555</p>
+        <div class="email">
+          <a href="mailto:blank@template.com">blank@template.com</a>
+        </div>
+        <div class="phone">
+          <a href="tel:555-555-5555">555-555-5555</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
