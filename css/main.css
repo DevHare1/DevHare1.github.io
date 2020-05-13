@@ -46,7 +46,9 @@
 
 .custom-jumbo-main h1 {
   color: white;
+  font-weight: 400;
 }
+
 /* About */
 .about {
   background-color: white;
@@ -180,8 +182,52 @@
   font-size: 0.8em;
 }
 
+/* SVGS */
+.custom-svg {
+  fill: #0f4c81;
+  margin: 0 5px;
+}
+
+.contact-info {
+  text-align: center;
+  background-color: white;
+  border-top: solid 1px #0f4c81;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  /* Padding for Text*/
+  .jumbotron p {
+    padding: 10px 10%;
+  }
+
+  .about h2 {
+    padding: 0 10%;
+  }
+
+  #aboutJumbo p {
+    padding: 0 10%;
+  }
+
+  /* Main Styles */
+  .navbar-brand {
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+  }
+
+  .form-group {
+    margin: 30px;
+  }
+}
+
 /*---alert---*/
-.alert {
+/*.alert {
   padding: 15px;
 }
 
@@ -206,34 +252,4 @@
 
 .alert-banner-close:hover {
   cursor: pointer;
-}
-
-/* SVGS */
-.custom-svg {
-  fill: #0f4c81;
-  margin: 0 5px;
-}
-
-.contact-info {
-  text-align: center;
-  background-color: white;
-  border-top: solid 1px #0f4c81;
-  padding: 20px;
-}
-
-@media (min-width: 992px) {
-  .navbar-brand {
-    font-weight: 400;
-    text-align: left;
-  }
-
-  .main-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0px;
-  }
-
-  .form-group {
-    margin: 30px;
-  }
-}
+}*/
