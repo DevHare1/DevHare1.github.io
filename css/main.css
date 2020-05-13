@@ -36,11 +36,6 @@
   overflow: hidden;
 }
 
-.jumbotron h1 {
-  color: #0f4c81;
-  font-weight: 300;
-}
-
 .jumbotron p {
   padding: 10px 15px;
 }
@@ -102,37 +97,6 @@
   margin-top: 30px;
 }
 
-/* Contact Info */
-.contact-info {
-  text-align: center;
-  background-color: white;
-  border-top: solid 1px #0f4c81;
-  padding-top: 30px;
-}
-
-.contact-info h3 {
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #0f4c81;
-}
-
-.contact-info p {
-  margin-bottom: 10px;
-}
-
-.email {
-  margin-bottom: 5px;
-}
-
-.phone {
-  margin-bottom: 30px;
-}
-
-.email a,
-.phone a {
-  color: #0f4c81;
-}
-
 /* About Page Styles */
 .photo-of-me {
   max-width: 80%;
@@ -163,20 +127,13 @@
   color: white;
 }
 
-.jumbotron h1 {
-  color: #0f4c81;
+.custom-jumbo-about h1 {
+  color: white;
   font-weight: 300;
 }
 
-.jumbotron p {
-  padding: 10px 15px;
-}
-
 .custom-jumbo-about p {
-  color: white;
-}
-
-.custom-jumbo-about h1 {
+  padding: 10px 15px;
   color: white;
 }
 
@@ -192,6 +149,10 @@
   margin-bottom: 0;
   text-align: center;
   background-color: white;
+}
+
+.custom-jumbo-projects h1 {
+  color: #0f4c81;
 }
 
 /* Project Cards*/
@@ -245,6 +206,19 @@
 
 .alert-banner-close:hover {
   cursor: pointer;
+}
+
+/* SVGS */
+.custom-svg {
+  fill: #0f4c81;
+  margin: 0 5px;
+}
+
+.contact-info {
+  text-align: center;
+  background-color: white;
+  border-top: solid 1px #0f4c81;
+  padding: 20px;
 }
 
 @media (min-width: 992px) {
